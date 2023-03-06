@@ -1,0 +1,71 @@
+@charset "utf-8";
+.w960 {
+    max-width: 100%;
+    width: 960px;
+    margin: 0 auto;
+    padding-left: 100px;
+}
+.form-control {
+    border: 1px solid rgb(192, 186, 186);
+}
+
+.heading .title.arrow-left {
+    margin-top: 0;
+}
+
+.sigunup_form label {
+    margin-top: 10px;
+}
+
+.sigunup_form input {
+    width: 50%;
+}
+
+
+.id_check {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: left;
+    
+}
+
+.double_check {
+    margin: -1px 0 0 5px;
+}
+
+
+.mb-3 .phone {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: left;
+}
+
+.mb-3 .phone input{
+    width: 20%;
+    margin-right: 5px;
+}
+
+.signup_button {
+    margin: 30px 0 100px 0;
+}
+
+.btn:hover {
+    background-color: #000;
+}
+
+.postcode {
+    width: 30%;
+}
+.postcode input {
+    margin: 2px 2px 2px 0;
+}
+.postcode .postcode_find {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: left;
+}
+
+#sample6_address,
+#sample6_detailAddress {
+    width: 200%;
+}

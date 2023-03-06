@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* =========================================================== */
+
+
+
+/* 셀로판지 효과 */
+
+
+
+
+
+.slide_gallery .swiper-wrapper .swiper-slide a {
+    position: relative;
+}
+
+.slide_gallery .swiper-wrapper .swiper-slide a:before {
+    content: "";
+    display: block;
+    width: 97%;
+    height: 74%;
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    /* 포지션 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    transition: all 0.3s;
+}
+.slide_gallery .swiper-wrapper .swiper-slide a:hover:before {
+    opacity: 0.7;
+}
+
+/* 셀로판지 텍스트 */
+
+.slide_gallery .swiper-wrapper .swiper-slide a div p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+    margin-left: -102px;
+    margin-top: 60px;
+    line-height: 1.8;
+    text-align: center;   
+}
+.slide_gallery .swiper-wrapper .swiper-slide a div span {
+    font-size: 16px;
+}
+
+/* 셀로판지 텍스트 이동효과 */
+
+.slide_gallery .swiper-wrapper .swiper-slide a div {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    z-index: 200;
+    opacity: 0;
+    transition: all 0.3s;
+
+
+}
+.slide_gallery .swiper-wrapper .swiper-slide a:hover div {
+    opacity: 1;
+    transform: translateY(30px);
+}
+
+
+
