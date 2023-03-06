@@ -19,3 +19,5 @@ Springboot, JSP, HTML, CSS, JavaScript, SQL, bootStrap
 1) 로그인
 2) 회원가입
 3) 게시판 - 진행중
+4) SNS카카오 연동 로그인 - 진행중
+5) 예약시스템 - 진행중
