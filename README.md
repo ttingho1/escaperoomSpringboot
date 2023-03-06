@@ -10,6 +10,7 @@
 2) openjdk version "1.8.0_362"
 3) javac 1.8.0_362
 4) mysql 8.0
+5) myBatis
 
 #3. 프로젝트 사용기술
 
