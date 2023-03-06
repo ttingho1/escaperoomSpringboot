@@ -2,7 +2,7 @@
 
 
 #1. 프로젝트 개요
-##### 자바 스프링부트를 이용하여 웹페이지 개발
+자바 스프링부트를 이용하여 웹페이지 개발
 
 #2. 프로젝트 사용환경
 1) Apache Tomcat/9.0.71
@@ -11,6 +11,7 @@
 4) mysql 8.0
 
 #3. 프로젝트 사용기술
+
 Springboot, JSP, HTML, CSS, JavaScript, SQL, bootStrap
 
 #4. 구현 페이지 
