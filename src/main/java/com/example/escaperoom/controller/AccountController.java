@@ -139,10 +139,5 @@ public class AccountController {
         return "redirect:/login";
     }
 
-    // 게시판 - 미완성
-    @GetMapping("/reservationQna")
-    public String reservationQna(){
-        return "/reservationQna";
-    }
 
 }
